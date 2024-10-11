@@ -14,7 +14,7 @@ class Book:
 
         """
         String representation of the users or the instance of the class Book"""
-        return f"{self.title} by {self.author} published in {self.year}"
+        return f"{self.title} by {self.author}, published in {self.year}"
     
     def __repr__(self):
 
